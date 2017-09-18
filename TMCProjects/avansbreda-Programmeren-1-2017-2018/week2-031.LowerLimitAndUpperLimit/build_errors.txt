@@ -1,0 +1,6 @@
+
+BUILD FAILED
+D:\Avans\Programming 1\TMCProjects\avansbreda-Programmeren-1-2017-2018\week2-031.LowerLimitAndUpperLimit\nbproject\build-impl.xml:915: The following error occurred while executing this line:
+D:\Avans\Programming 1\TMCProjects\avansbreda-Programmeren-1-2017-2018\week2-031.LowerLimitAndUpperLimit\nbproject\build-impl.xml:268: Error running javac.exe compiler
+
+Total time: 0 seconds
