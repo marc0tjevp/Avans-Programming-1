@@ -1,60 +1,57 @@
 public class Printing {
 
     public static void printStars(int amount) {
-        int tracker = 0;
+        // 39.1
+        int base = 0;
+        while(base < amount){
+            base++;
+            System.out.print("*");}
 
-        while(amount > tracker) {
-            System.out.print("*");
-            tracker++;
-        }
+
+        System.out.println();
     }
 
     public static void printSquare(int sideSize) {
-
-        int tracker = 0;
-
-        while(sideSize > tracker) {
+        // 39.2
+        int base1 = 0;
+        while(base1 < sideSize){
+            base1++;
             printStars(sideSize);
-            System.out.println("");
-            tracker++;
         }
     }
 
     public static void printRectangle(int width, int height) {
-
-        int tracker = 0;
-
-        while(height > tracker) {
-            printStars(width);
-            System.out.println("");
-            tracker++;
-        }
+        // 39.3
+        int base = 0;
+        while(base < height){
+            base++;
+            printStars((width));}
 
     }
 
     public static void printTriangle(int size) {
-        int tracker = 0;
+        // 39.4
+        int base = 0;
         int rows = 1;
-
-        while(size > tracker) {
+        while(base < size){
             printStars(rows);
-            System.out.println("");
-            tracker++;
+            base++;
             rows++;
-        }
-    }
-;
-    public static void main(String[] args) {
 
-        System.out.println("");
-        printStars(7);
-        System.out.println("");
+
+        }
+
+    }
+
+    public static void main(String[] args) {
+        printStars(3);
+        System.out.println("\n---");  // printing --- to separate the figures
         printSquare(4);
-        System.out.println("\n");
-        printRectangle(17, 3);
-        System.out.println("\n");
+        System.out.println("\n---");
+        printRectangle(5, 6);
+        System.out.println("\n---");
         printTriangle(3);
-        System.out.println("\n");
+        System.out.println("\n---");
     }
 
 }

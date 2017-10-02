@@ -3,7 +3,6 @@ import java.util.ArrayList;
 
 public class AverageOfNumbers {
 
-    // Copy here the method sum from previous assignment
     public static int sum(ArrayList<Integer> list) {
 
         int sum = 0;

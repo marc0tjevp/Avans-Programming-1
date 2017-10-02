@@ -1,0 +1,6 @@
+
+BUILD FAILED
+D:\Avans\Programming 1\TMCProjects\avansbreda-Programmeren-1-2017-2018\week4-081.PasswordRandomizer\nbproject\build-impl.xml:603: The following error occurred while executing this line:
+D:\Avans\Programming 1\TMCProjects\avansbreda-Programmeren-1-2017-2018\week4-081.PasswordRandomizer\nbproject\build-impl.xml:245: Error running javac.exe compiler
+
+Total time: 0 seconds
